@@ -122,4 +122,8 @@ button{
     font-weight: 700;
 }
 
+button::hover{
+    cursor : pointer;
+}
+
 /*                     GEN                      */
