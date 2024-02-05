@@ -1,0 +1,139 @@
+/*               Mise en page générale              */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #18182F;
+    color: white;
+    font-family: gi_font;}
+
+@font-face {
+    font-family: 'GI_drip_font';
+    src: url('../fonts/GI_DRIP-font.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+    font-family: 'GI_font';
+    src: url('../fonts/GI_font.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+input[type='radio'] {
+    accent-color: #70BDE8;
+}
+
+/*               CLASSES FONCTIONNELLES              */
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.BIGGERcontainer{
+    display: inline-grid;
+    grid-template-columns: 60vh 60vh;
+    grid-template-rows: auto;
+    grid-gap: 3px;
+    
+}
+
+.BIGGERcontainer>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.change_size{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.BIGGERcontainer>label{
+    display: block;
+    width: 30vh;
+}
+
+/*               IMG              */
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.img_elements{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img_logo{
+    width: 240px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/*                     TITRES                      */
+h1{
+    font-family: GI_drip_font;
+    text-align: center;
+    font-size: 60px;
+    width: 80%;
+    margin: 100px auto;
+    color: #D7C4F2;
+}
+
+h2{
+    font-family: GI_font;
+    text-align: center;
+    font-size: 40px;
+    width: 80%;
+    margin: 60px auto;
+    color: #D7C4F2;
+    -webkit-text-stroke: 0px;
+}
+
+/*                     BOUTONS                      */
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+    background-color: #70BDE8;
+    color: #18182F;
+    padding: 20px 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 60px auto;
+    font-size: 30px;
+}
+
+/*                     GEN                      */
+
+nav{
+    background-color: #70BDE8;
+    height: 80px;
+}
+
+fieldset{
+    border: none;
+}
+
+label{
+    font-size: 30px;
+    margin: 0px 20px;
+}
+
+fieldset>div:hover{
+    background-color: #464666;
+}
+
+input{
+    margin: 30px 0;
+}

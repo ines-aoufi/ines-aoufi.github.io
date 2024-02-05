@@ -1,0 +1,125 @@
+/*               Mise en page générale              */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #CE97E8;
+    background-image: url(../images/bg.jpg);
+    background-size: 700px 700px;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-mono-regular {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-mono-regular-italic {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.ubuntu-mono-bold {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-mono-bold-italic {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/*               CLASSES FONCTIONNELLES              */
+
+.container{
+    width: 40%;
+    margin: 20px auto;
+    background-color: black;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*               IMG              */
+
+img{
+    display: block;
+    width: 100%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/*                     TITRES                      */
+
+h1{
+    margin-top: 50px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 50px;
+    background: -webkit-linear-gradient(45deg, #EE7CF0, #BC6FE0, #96B1F4);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+}
+
+h2{
+    margin-top: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    font-size: 20px;
+    color: #96B1F4;
+    font-style: italic;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+}
+
+hr{
+    border-top: 2px solid;
+    border-color: #4F395E;
+}
+
+p{
+    margin: 0px;
+    margin-top: 20px;
+}
+
+/*                     BOUTONS                      */
+
+a{
+    margin: 0 auto;
+    font-size: 15px;
+    color: #CE97E8;
+}
+
+button{
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #CE97E8;
+    color: black;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+}
+
+/*                     GEN                      */
