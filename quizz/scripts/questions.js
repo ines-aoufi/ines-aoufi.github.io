@@ -47,14 +47,10 @@ function callsCorrespondingAddPoints() {
             addPointsAnimal();
             break;
         case "q3" :
-            
+            addPointsSentiment();
             break;
         case "q4" :
-            break;
-        case "q5" :
-            break;
-        case "q6" :
-            addPointsAnimal();
+            addPointsCats();
             break;
         default:
             alert("not in a quizz");
