@@ -108,7 +108,7 @@ a{
     color: #CE97E8;
 }
 
-button{
+.cta_quizz{
     text-decoration: none;
     display: inline-block;
     border: none;
@@ -122,8 +122,5 @@ button{
     font-weight: 700;
 }
 
-a:hover{
-    cursor : pointer;
-}
 
 /*                     GEN                      */
